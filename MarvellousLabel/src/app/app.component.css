@@ -1,0 +1,14 @@
+.name-text-input::placeholder {
+    color: #4b5454;
+}
+
+.container {
+    padding: 3.5em 1.5em 0.5em;
+    padding-left: 20em;
+}
+
+.text-label {
+    text-align: center;
+    padding: 3.5em 1.5em 0.5em;
+    padding-left: 20em;
+}
