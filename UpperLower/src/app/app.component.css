@@ -1,0 +1,24 @@
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button-style {
+    margin: 5px;
+    padding: 6px 15px;
+    border: 2px solid #19ba1e;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: #1d3f1e;
+    color: white;
+    font-size: 15px;
+}
+
+.button-style:hover {
+    background-color: white;
+    color: #1f5b09;
+}
+h1{
+    color: rgb(12, 92, 92);
+    text-align: center;
+}

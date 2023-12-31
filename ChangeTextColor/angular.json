@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "StringInterpolation": {
+    "ChangeTextColor": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/string-interpolation",
+            "outputPath": "dist/change-text-color",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -62,10 +62,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "StringInterpolation:build:production"
+              "buildTarget": "ChangeTextColor:build:production"
             },
             "development": {
-              "buildTarget": "StringInterpolation:build:development"
+              "buildTarget": "ChangeTextColor:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -73,7 +73,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "StringInterpolation:build"
+            "buildTarget": "ChangeTextColor:build"
           }
         },
         "test": {
@@ -98,6 +98,6 @@
     }
   },
   "cli": {
-    "analytics": "bcfee8a8-68c8-4f3e-bbeb-c8cb914ca9d1"
+    "analytics": "38e8724d-4ca3-4506-9064-f562bd9c8152"
   }
 }

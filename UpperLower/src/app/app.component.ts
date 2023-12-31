@@ -10,9 +10,12 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
+  public className: string = "Marvellous Infosystems";
 
-  public fun(): string {
-    var name: string = "Marvellous Infosystems";
-    return name
+  public toUpper(): string {
+    return this.className = this.className.toUpperCase();
+  }
+  public toLower(): string {
+    return this.className = this.className.toLowerCase();
   }
 }
