@@ -1,0 +1,17 @@
+.label-name {
+    display: inline-block;
+    padding-top: 35px;
+    color: rgb(15, 98, 102);
+    font-family: monospace;
+    font-size: large;
+}
+
+.input-text {
+    display: inline-block;
+    padding-top: 8px;
+    margin-left: 20px;
+    color: aqua;
+    width: 250px;
+    box-shadow: 2px 1.5px rgb(35, 203, 192);
+}
+
