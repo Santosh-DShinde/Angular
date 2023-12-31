@@ -1,0 +1,15 @@
+.container {
+  text-align: center;
+}
+.input-text {
+  margin-top: 20px;
+  color: rgb(3, 66, 66);
+  text-align: center;
+  border-radius: 10px;
+  padding: 6px 2px;
+  box-shadow: 2px 2px 2px 0 rgb(63, 222, 222);
+}
+
+h2 {
+  color: darkseagreen;
+}

@@ -1,0 +1,12 @@
+<div class="container">
+  <input
+    type="text"
+    [(ngModel)]="inputString"
+    class="input-text"
+    placeholder="Enter Text"
+  />
+
+  <h2>length of the string is : {{ inputString.length }}</h2>
+</div>
+
+<router-outlet></router-outlet>
